@@ -1,0 +1,69 @@
+############
+#@jcmorales#
+#2020-05-11#
+############
+
+##### Dado de los valores ingresados por el usuario (base, altura) calcular y mostrar en pantalla el área de un triángulo.
+# base = float(input('¿Cuál es la base del triángulo? \n'))
+# altura = float(input('¿Cuál es la altura del triángulo? \n'))
+# area = ( base * altura ) / 2
+# print('El área del triángulo es: ', area)
+
+##### Convertir la cantidad de dólares ingresados por un usuario a pesos colombianos y mostrar el resultado en pantalla.
+# cantidad_usd = float(input('USD = \n'))
+# pesos_mexicanos = cantidad_usd * 24.74
+# print('Resultado en pesos mexicanos: $',pesos_mexicanos)
+
+##### Convertir los grados centígrados ingresados por un usuario a grados Fahrenheit y mostrar el resultado en pantalla.
+# grados_centigrados = float(input('C° \n'))
+# grados_farenheit = ( grados_centigrados * ( 9/5 ) ) + 32
+# print(grados_farenheit)
+
+##### Mostrar en pantalla la cantidad de segundos que tiene un lustro.
+#print('Cantidad de segundos que tiene un lustro: ', 60*60*24*365*5)
+
+##### Calcular la cantidad de segundos que le toma a la luz viajar del sol a Marte y mostrar el resultado en pantalla.
+# VELOCIDAD_DE_LUZ = 300000 #kilometros/segundos
+# DISTANCIA_SOL_A_MARTE = 227940000 #kilometros
+# print('Cantidad de segundos que le toma a la luz viajar del sol a marte: ', DISTANCIA_SOL_A_MARTE / VELOCIDAD_DE_LUZ)
+
+##### Calcular el número de vueltas que da una llanta en 1 km, dado que el diámetro de la llanta es de 50 cm,
+#mostrar el resultado en pantalla.
+# import math
+# diametro_llanta = .5 #metros
+# perimetro_llanta = math.pi * diametro_llanta
+# print('Total de vueltas: ', 1000/perimetro_llanta)
+
+##### Calcular y mostrar en pantalla la longitud de la sombra de un edificio de 20 metros de altura
+#cuando el ángulo que forman los rayos del sol con el suelo es de 22º.
+# TAN=CO/CA => CA=CO/TAN
+# import math
+# cateto_opuesto = 20 #metros
+# tangente = math.tan(math.radians(22)) 
+# print('La longitud de la sombra del edificio es: ', cateto_opuesto/tangente )
+
+##### Mostrar en pantalla True o False si la edad ingresada por dos usuarios es la misma.
+# edad_usuario_a = int(input('¿Cuál es tu edad? \n'))
+# edad_usuario_b = int(input('¿Cuál es tu edad? \n'))
+# print(edad_usuario_a == edad_usuario_b)
+
+##### Mostrar en pantalla la cantidad de meses transcurridos desde la fecha de nacimiento de un usuario.
+# from datetime import date
+# from datetime import datetime
+
+# now = datetime.now()
+
+# anio_nacimiento = int(input('Año de nacimiento \n'))
+# mes_nacimiento = int(input('Mes de nacimiento \n'))
+# dia_nacimiento = int(input('Día de nacimiento \n'))
+# fecha_nacimiento = datetime(anio_nacimiento, mes_nacimiento, dia_nacimiento)
+# dias_transcurridos = now - fecha_nacimiento
+# print('Meses transcurridos desde tu fecha de nacimiento: ', dias_transcurridos.days / 30 )
+
+##### Mostrar en pantalla el promedio de un alumno que ha cursado 5 materias (Español, Matemáticas, Economía, Programación, Ingles).
+# calificacion_espaniol = 65.5
+# calificacion_matematicas = 85
+# calificacion_economia = 90
+# calificacion_programacion = 100
+# calificacion_ingles = 100
+# print('El promedio es: ',(calificacion_espaniol+calificacion_matematicas+calificacion_economia+calificacion_programacion+calificacion_ingles)/5)
